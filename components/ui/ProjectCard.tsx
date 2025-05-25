@@ -62,7 +62,7 @@ export function ProjectCard({
           {tags.map((tag) => (
             <li
               key={tag}
-              className="text-xs font-medium bg-gray-600/40 rounded-lg px-3 py-1"
+              className="text-xs font-medium bg-transparent border border-gray-500 text-gray-400 rounded-lg px-3 py-1"
             >
               {tag}
             </li>
