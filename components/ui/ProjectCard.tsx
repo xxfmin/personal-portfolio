@@ -31,9 +31,6 @@ export function ProjectCard({
         overflow-visible
       "
     >
-      {/* gradient accent stripe */}
-      <div className="h-1 bg-gradient-to-r from-indigo-400 to-pink-300" />
-
       {/* clickable screenshot (no follow-pointer) */}
       <a
         href={website}
