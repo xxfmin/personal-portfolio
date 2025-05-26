@@ -31,7 +31,7 @@ export function ProjectCard({
         overflow-visible
       "
     >
-      {/* clickable screenshot (no follow-pointer) */}
+      {/* clickable screenshot */}
       <a
         href={website}
         target="_blank"
@@ -66,7 +66,7 @@ export function ProjectCard({
           ))}
         </ul>
 
-        {/* GitHub link */}
+        {/* github link */}
         <div className="mt-auto pt-4 border-t border-gray-700/50">
           <a
             href={github}

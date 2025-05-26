@@ -14,15 +14,15 @@ import { techStack, TechItem } from "@/data";
 const About = () => {
   return (
     <section id="about" className="bg-black">
-      <div className="h-screen w-full py-16 px-8 sm:px-38">
-        {/* Section title */}
+      <div className="min-h-screen w-full py-16 px-8 sm:px-38">
+        {/* title */}
         <p className="text-5xl font-semibold pb-12">
           <Highlight>about me</Highlight>
         </p>
 
-        <div className="flex flex-row items-center justify-center gap-8 px-8">
-          {/* headshot */}
-          <div className="w-[35%] flex justify-center">
+        <div className="flex flex-col items-center justify-center gap-8 px-8 sm:flex-row">
+          {/* headshot: 30% width on sm+ */}
+          <div className="w-full flex justify-center sm:w-[30%]">
             <Image
               src="/img/about/headshot.jpg"
               alt="Felipe Min headshot"
@@ -34,8 +34,8 @@ const About = () => {
             />
           </div>
 
-          {/* glass-morphic info card */}
-          <div className="w-[65%]">
+          {/* info content: 70% width on sm+ */}
+          <div className="w-full sm:w-[70%]">
             <div
               className="
                 relative
@@ -49,8 +49,8 @@ const About = () => {
                 text-white
               "
             >
-              {/* social icons */}
-              <div className="absolute top-4 right-4 flex space-x-3">
+              {/* socials */}
+              <div className="flex space-x-3 mb-4 sm:absolute sm:top-4 sm:right-4 sm:mb-0">
                 <a
                   href="https://www.linkedin.com/in/felipe-min/"
                   target="_blank"

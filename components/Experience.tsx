@@ -10,7 +10,7 @@ const Experience = () => (
     id="experience"
     className="h-screen w-full flex flex-col py-8 px-8 sm:px-38 bg-black"
   >
-    <p className="text-5xl text-black font-semibold pb-12">
+    <p className="text-5xl text-black font-semibold pb-12 text-center">
       <Highlight>experience</Highlight>
     </p>
 
