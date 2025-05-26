@@ -21,7 +21,7 @@ const About = () => {
         </p>
 
         <div className="flex flex-col items-center justify-center gap-8 px-8 sm:flex-row">
-          {/* headshot: 30% width on sm+ */}
+          {/* headshot*/}
           <div className="w-full flex justify-center sm:w-[30%]">
             <Image
               src="/img/about/headshot.jpg"
@@ -34,7 +34,7 @@ const About = () => {
             />
           </div>
 
-          {/* info content: 70% width on sm+ */}
+          {/* info content*/}
           <div className="w-full sm:w-[70%]">
             <div
               className="

@@ -22,7 +22,7 @@ const Projects = () => {
         <Highlight>projects</Highlight>
       </p>
 
-      {/* Projects grid */}
+      {/* projects grid */}
       <div className="w-full flex justify-center">
         <div className="w-full px-8">
           {" "}
