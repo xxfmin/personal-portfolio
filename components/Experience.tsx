@@ -30,7 +30,7 @@ const Experience = () => (
             transition-all duration-300
             border-l-4 border-indigo-500 pl-6
           "
-          radius={150}
+          radius={300}
           color="rgba(255,255,255,0.05)"
         >
           <div className="flex items-center justify-between">
