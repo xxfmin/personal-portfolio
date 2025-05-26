@@ -9,12 +9,11 @@ import spotify from "@/public/img/about/spotify.png";
 import instagram from "@/public/img/about/instagram.png";
 
 import { Highlight } from "./ui/Highlight";
-import { TechStackCards } from "./ui/TechStackCards";
-import { techStack } from "@/data";
+import { techStack, TechItem } from "@/data";
 
 const About = () => {
   return (
-    <section id="about">
+    <section id="about" className="bg-black">
       <div className="h-screen w-full py-16 px-8 sm:px-38">
         {/* Section title */}
         <p className="text-5xl font-semibold pb-12">
@@ -39,16 +38,16 @@ const About = () => {
           <div className="w-[65%]">
             <div
               className="
-              relative
-              bg-white/10
-              backdrop-blur-lg
-              border
-              border-white/20
-              rounded-3xl
-              p-6
-              shadow-xl
-              text-white
-            "
+                relative
+                bg-white/10
+                backdrop-blur-lg
+                border
+                border-white/20
+                rounded-3xl
+                p-6
+                shadow-xl
+                text-white
+              "
             >
               {/* social icons */}
               <div className="absolute top-4 right-4 flex space-x-3">
@@ -57,14 +56,26 @@ const About = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Image src={linkedin} alt="LinkedIn" width={32} height={32} />
+                  <Image
+                    src={linkedin}
+                    alt="LinkedIn"
+                    width={32}
+                    height={32}
+                    className="filter brightness-0 invert"
+                  />
                 </a>
                 <a
                   href="https://github.com/xxfmin"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Image src={github} alt="GitHub" width={32} height={32} />
+                  <Image
+                    src={github}
+                    alt="GitHub"
+                    width={32}
+                    height={32}
+                    className="filter brightness-0 invert"
+                  />
                 </a>
                 <a
                   href="https://www.instagram.com/felipe.min/"
@@ -76,6 +87,7 @@ const About = () => {
                     alt="Instagram"
                     width={32}
                     height={32}
+                    className="filter brightness-0 invert"
                   />
                 </a>
                 <a
@@ -83,7 +95,13 @@ const About = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Image src={spotify} alt="Spotify" width={32} height={32} />
+                  <Image
+                    src={spotify}
+                    alt="Spotify"
+                    width={32}
+                    height={32}
+                    className="filter brightness-0 invert"
+                  />
                 </a>
               </div>
 
@@ -105,14 +123,30 @@ const About = () => {
               </div>
             </div>
 
-            {/* tech stack carousel */}
-            <div className="mt-8 px-4">
-              <TechStackCards
-                items={techStack}
-                direction="left"
-                speed="fast"
-                pauseOnHover
-              />
+            {/* tech stack grid */}
+            <div className="mt-8 flex flex-wrap space-x-3 space-y-1 px-2">
+              {techStack.map((tech: TechItem) => (
+                <div
+                  key={tech.name}
+                  className="
+                    flex
+                    items-center
+                    space-x-2
+                    px-4
+                    py-2
+                    rounded-full
+                  "
+                >
+                  <div
+                    className="w-5 h-5 bg-white flex-shrink-0"
+                    style={{
+                      mask: `url(${tech.iconPath}) no-repeat center/contain`,
+                      WebkitMask: `url(${tech.iconPath}) no-repeat center/contain`,
+                    }}
+                  />
+                  <span className="text-white text-sm">{tech.name}</span>
+                </div>
+              ))}
             </div>
           </div>
         </div>

@@ -1,14 +1,19 @@
 import { StaticImageData } from "next/image";
 
-import jsLogo from "@/public/img/logos/js.png";
-import reactLogo from "@/public/img/logos/react.png";
-import nextjsLogo from "@/public/img/logos/nextjs.png";
-import nodejsLogo from "@/public/img/logos/nodejs.png";
-import mongodbLogo from "@/public/img/logos/mongodb.webp";
-import gitLogo from "@/public/img/logos/git.png";
-import pythonLogo from "@/public/img/logos/python.png";
-import javaLogo from "@/public/img/logos/java.png";
-import cLogo from "@/public/img/logos/c.png";
+import jsLogo from "@/public/img/logos/js.svg";
+import tsLogo from "@/public/img/logos/ts.svg";
+import reactLogo from "@/public/img/logos/react.svg";
+import nextjsLogo from "@/public/img/logos/nextjs.svg";
+import nodejsLogo from "@/public/img/logos/nodejs.svg";
+import tailwindLogo from "@/public/img/logos/tailwindcss.svg";
+import mongodbLogo from "@/public/img/logos/mongodb.svg";
+import mysqlLogo from "@/public/img/logos/mysql.svg";
+import phpLogo from "@/public/img/logos/php.svg";
+import gitLogo from "@/public/img/logos/git.svg";
+import pythonLogo from "@/public/img/logos/python.svg";
+import javaLogo from "@/public/img/logos/java.svg";
+import cLogo from "@/public/img/logos/c.svg";
+import cppLogo from "@/public/img/logos/cpp.svg";
 
 // NAV BAR ITEMS
 export const navItems = [
@@ -21,20 +26,24 @@ export const navItems = [
 // TECH STACK ITEMS
 export interface TechItem {
   name: string;
-  iconSrc: StaticImageData;
-  iconBg: string;
+  iconPath: string;
 }
 
 export const techStack: TechItem[] = [
-  { name: "JavaScript", iconSrc: jsLogo, iconBg: "bg-yellow-500/60" },
-  { name: "React", iconSrc: reactLogo, iconBg: "bg-cyan-800/75" },
-  { name: "Next.js", iconSrc: nextjsLogo, iconBg: "bg-gray-300" },
-  { name: "Node.js", iconSrc: nodejsLogo, iconBg: "bg-green-800/60" },
-  { name: "MongoDB", iconSrc: mongodbLogo, iconBg: "bg-green-800" },
-  { name: "Git", iconSrc: gitLogo, iconBg: "bg-orange-800/60" },
-  { name: "Python", iconSrc: pythonLogo, iconBg: "bg-white" },
-  { name: "Java", iconSrc: javaLogo, iconBg: "bg-white" },
-  { name: "C", iconSrc: cLogo, iconBg: "bg-blue-800/60" },
+  { name: "JavaScript", iconPath: "/img/logos/js.svg" },
+  { name: "Typescript", iconPath: "/img/logos/ts.svg" },
+  { name: "React", iconPath: "/img/logos/react.svg" },
+  { name: "Next.js", iconPath: "/img/logos/nextjs.svg" },
+  { name: "Node.js", iconPath: "/img/logos/nodejs.svg" },
+  { name: "Tailwind CSS", iconPath: "/img/logos/tailwindcss.svg" },
+  { name: "MongoDB", iconPath: "/img/logos/mongodb.svg" },
+  { name: "MySQL", iconPath: "/img/logos/mysql.svg" },
+  { name: "PHP", iconPath: "/img/logos/php.svg" },
+  { name: "Git", iconPath: "/img/logos/git.svg" },
+  { name: "Python", iconPath: "/img/logos/python.svg" },
+  { name: "Java", iconPath: "/img/logos/java.svg" },
+  { name: "C", iconPath: "/img/logos/c.svg" },
+  { name: "C++", iconPath: "/img/logos/cpp.svg" },
 ];
 
 // PROJECT ITEMS
