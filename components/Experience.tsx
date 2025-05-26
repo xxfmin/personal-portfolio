@@ -8,25 +8,25 @@ import { experiences } from "@/data";
 const Experience = () => (
   <section
     id="experience"
-    className="h-screen w-full flex flex-col py-8 sm:px-38 bg-black"
+    className="h-screen w-full flex flex-col py-8 px-8 sm:px-38 bg-black"
   >
     <p className="text-5xl text-black font-semibold pb-12">
       <Highlight>experience</Highlight>
     </p>
 
-    <div className="flex flex-col gap-6 px-8">
+    <div className="flex flex-col items-center gap-6">
       {experiences.map((exp) => (
         <CardSpotlight
           key={exp.company + exp.date}
           className="
-            w-full 
-            p-6 
-            bg-neutral-900/50 
-            backdrop-blur-sm 
-            border-none 
-            shadow-lg 
-            hover:shadow-2xl 
-            transform hover:scale-105 
+            w-[70%] mx-auto
+            p-6
+            bg-neutral-900/50
+            backdrop-blur-sm
+            border-none
+            shadow-lg
+            hover:shadow-2xl
+            transform hover:scale-105
             transition-all duration-300
             border-l-4 border-indigo-500 pl-6
           "
@@ -52,14 +52,14 @@ const Experience = () => (
               </div>
               <div className="flex flex-col">
                 <h3 className="text-2xl font-bold text-white">{exp.company}</h3>
-                <span className="text-sm uppercase text-gray-400 tracking-wide">
-                  {exp.date}
-                </span>
+                <p className="text-sm font-medium text-gray-400">{exp.role}</p>
               </div>
             </div>
 
             <div>
-              <p className="text-md font-medium text-gray-400">{exp.role}</p>
+              <p className="text-sm uppercase text-gray-400 tracking-wide">
+                {exp.date}
+              </p>
             </div>
           </div>
         </CardSpotlight>
