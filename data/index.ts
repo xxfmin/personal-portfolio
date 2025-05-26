@@ -60,11 +60,12 @@ export const projects: Project[] = [
   {
     title: "oddysey",
     description:
-      "AI-enhanced travel-itinerary builder that lets you map out, explore, and track your expenses",
+      "A full-stack, AI-enhanced travel itinerary builder that allows users to map out their trips, explore destinations, and track expenses",
     imageSrc: "/img/projects/odyssey.png",
     tags: [
       "Next.js",
       "React",
+      "Node.js",
       "Typescript",
       "Tailwind CSS",
       "MongoDB",
