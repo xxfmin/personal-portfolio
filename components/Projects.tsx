@@ -1,4 +1,3 @@
-// Projects.tsx
 import React from "react";
 import { Highlight } from "./ui/Highlight";
 import { projects } from "@/data";
@@ -18,14 +17,14 @@ const Projects = () => {
         bg-black
       "
     >
-      <p className="text-5xl font-semibold pb-12">
+      {/* title (moved right to line up with project grid) */}
+      <p className="text-5xl font-semibold pb-12 ml-8">
         <Highlight>projects</Highlight>
       </p>
 
       {/* projects grid */}
       <div className="w-full flex justify-center">
         <div className="w-full px-8">
-          {" "}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {projects.map((proj) => (
               <ProjectCard key={proj.title} {...proj} />

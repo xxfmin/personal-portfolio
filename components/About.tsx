@@ -16,25 +16,25 @@ const About = () => {
     <section id="about" className="bg-black">
       <div className="min-h-screen w-full py-16 px-8 sm:px-38">
         {/* title */}
-        <p className="text-5xl font-semibold pb-12">
+        <p className="text-5xl font-semibold pb-12 ml-8">
           <Highlight>about me</Highlight>
         </p>
 
-        <div className="flex flex-col items-center justify-center gap-8 px-8 sm:flex-row">
-          {/* headshot*/}
-          <div className="w-full flex justify-center sm:w-[30%]">
+        <div className="flex flex-col sm:flex-row items-center sm:items-stretch justify-center gap-8 px-8">
+          {/* headshot */}
+          <div className="w-full sm:w-[30%] flex justify-center">
             <Image
               src="/img/about/headshot.jpg"
               alt="Felipe Min headshot"
               width={400}
               height={400}
               quality={90}
-              style={{ width: "80%", height: "auto" }}
-              className="rounded-lg shadow-lg"
+              style={{ width: "auto", height: "100%" }}
+              className="rounded-lg shadow-lg object-cover"
             />
           </div>
 
-          {/* info content*/}
+          {/* info content */}
           <div className="w-full sm:w-[70%]">
             <div
               className="
@@ -70,7 +70,7 @@ const About = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Image src={email} alt="email" width={32} height={32} />
+                  <Image src={email} alt="Email" width={32} height={32} />
                 </a>
                 <a
                   href="https://open.spotify.com/user/felipemin?si=16224d0bc3f14c2e"
@@ -104,14 +104,7 @@ const About = () => {
               {techStack.map((tech: TechItem) => (
                 <div
                   key={tech.name}
-                  className="
-                    flex
-                    items-center
-                    space-x-2
-                    px-4
-                    py-2
-                    rounded-full
-                  "
+                  className="flex items-center space-x-2 px-4 py-2 rounded-full"
                 >
                   <div
                     className="w-5 h-5 bg-white flex-shrink-0"
