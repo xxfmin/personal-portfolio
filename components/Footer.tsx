@@ -7,7 +7,7 @@ const Footer = () => {
       className="flex flex-col justify-center antialiased relative border border-white/10 rounded-xl mb-5 sm:mx-30 mt-10"
       id="contact"
     >
-      <div className="p-10 border-white/10 flex flex-col md:flex-row justify-between gap-10 md:gap-0">
+      <div className="px-10 py-20 border-white/10 flex flex-col md:flex-row justify-between gap-10 md:gap-0">
         <div className="space-y-2.5">
           <h3 className="text-xl font-bold relative z-10">Felipe Min</h3>
           <p className="text-stone-200/70 relative z-10">
