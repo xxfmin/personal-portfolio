@@ -17,7 +17,7 @@ const Projects = () => {
         bg-black
       "
     >
-      {/* title (moved right to line up with project grid) */}
+      {/* title */}
       <p className="text-5xl font-semibold pb-12 ml-8">
         <Highlight>projects</Highlight>
       </p>
