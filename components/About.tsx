@@ -6,7 +6,7 @@ import Image from "next/image";
 import linkedin from "@/public/img/about/linkedin.png";
 import github from "@/public/img/about/github.png";
 import spotify from "@/public/img/about/spotify.png";
-import instagram from "@/public/img/about/instagram.png";
+import email from "@/public/img/about/email.webp";
 
 import { Highlight } from "./ui/Highlight";
 import { techStack, TechItem } from "@/data";
@@ -56,52 +56,28 @@ const About = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Image
-                    src={linkedin}
-                    alt="LinkedIn"
-                    width={32}
-                    height={32}
-                    className="filter brightness-0 invert"
-                  />
+                  <Image src={linkedin} alt="LinkedIn" width={32} height={32} />
                 </a>
                 <a
                   href="https://github.com/xxfmin"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Image
-                    src={github}
-                    alt="GitHub"
-                    width={32}
-                    height={32}
-                    className="filter brightness-0 invert"
-                  />
+                  <Image src={github} alt="GitHub" width={32} height={32} />
                 </a>
                 <a
-                  href="https://www.instagram.com/felipe.min/"
+                  href="mailto:felipemin03@gmail.com"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Image
-                    src={instagram}
-                    alt="Instagram"
-                    width={32}
-                    height={32}
-                    className="filter brightness-0 invert"
-                  />
+                  <Image src={email} alt="email" width={32} height={32} />
                 </a>
                 <a
                   href="https://open.spotify.com/user/felipemin?si=16224d0bc3f14c2e"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Image
-                    src={spotify}
-                    alt="Spotify"
-                    width={32}
-                    height={32}
-                    className="filter brightness-0 invert"
-                  />
+                  <Image src={spotify} alt="Spotify" width={32} height={32} />
                 </a>
               </div>
 
