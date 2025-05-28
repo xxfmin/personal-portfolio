@@ -31,7 +31,7 @@ const Hero = () => {
             Hi, I’m <span className="text-blue-500">Felipe</span>
           </p>
           <p className="text-xl font-bold text-white/85 sm:text-2xl">
-            &#91; full-stack developer &#93;
+            &#91; software engineer &#93;
           </p>
           <div className="flex flex-row justify-center items-center pt-14 gap-10">
             <ShinyButton icon={<ChevronRight />}>
