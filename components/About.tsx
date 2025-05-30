@@ -83,17 +83,17 @@ const About = () => {
 
               {/* text content */}
               <div className="space-y-4">
-                <p>hey there! i'm felipe min 👋</p>
+                <p>Hey there! i'm Felipe Min 👋</p>
                 <p>
-                  i was born in são paulo, brazil to south korean parents, and
-                  moved to america at the age of 11. my favorite things to do
+                  I was born in São Paulo, Brazil to South Korean parents, and
+                  moved to America at the age of 11. My favorite things to do
                   include traveling around the world, trying new food spots with
                   my girlfriend, and playing soccer with friends.
                 </p>
                 <p>
-                  currently, i’m a senior at the university of central florida,
-                  set to graduate in spring 2026 with a bachelor’s degree in
-                  computer science. i enjoy building things that make a
+                  Currently, i’m a senior at the University of Central Florida,
+                  set to graduate in Spring 2026 with a Bachelor’s degree in
+                  Computer Science. i enjoy building things that make a
                   meaningful impact on people’s lives.
                 </p>
               </div>
