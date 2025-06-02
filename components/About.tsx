@@ -24,7 +24,7 @@ const About = () => {
           {/* headshot */}
           <div className="w-full sm:w-[30%] flex justify-center">
             <Image
-              src="/img/about/headshot.jpg"
+              src="/img/about/headshot.JPG"
               alt="Felipe Min headshot"
               width={400}
               height={400}
