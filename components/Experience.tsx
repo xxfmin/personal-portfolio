@@ -51,7 +51,9 @@ const Experience = () => (
                 />
               </div>
               <div className="flex flex-col">
-                <h3 className="text-2xl font-bold text-white">{exp.company}</h3>
+                <h3 className="text-lg sm:text-2xl font-bold text-white">
+                  {exp.company}
+                </h3>
                 <p className="text-sm font-medium text-gray-400">{exp.role}</p>
               </div>
             </div>
