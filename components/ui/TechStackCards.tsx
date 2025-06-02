@@ -70,9 +70,9 @@ export const TechStackCards: React.FC<TechStackCardsProps> = ({
             className="flex items-center gap-4 shrink-0 rounded-xl bg-gray-900/85 px-4 py-2"
           >
             {/* colored square behind logo */}
-            <div className={cn(item.iconBg, "p-2 rounded-md flex-shrink-0")}>
+            <div className="p-2 rounded-md flex-shrink-0">
               <Image
-                src={item.iconSrc}
+                src={item.iconPath}
                 alt={item.name}
                 width={28}
                 height={28}
