@@ -83,7 +83,7 @@ const About = () => {
 
               {/* text content */}
               <div className="space-y-4">
-                <p>Hey there! i'm Felipe Min 👋</p>
+                <p>Hey there! I&apos;m Felipe Min 👋</p>
                 <p>
                   I was born in São Paulo, Brazil to South Korean parents, and
                   moved to America at the age of 11. My favorite things to do
