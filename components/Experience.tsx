@@ -8,7 +8,7 @@ import { experiences } from "@/data";
 const Experience = () => (
   <section
     id="experience"
-    className="h-screen w-full flex flex-col py-8 px-8 sm:px-38 bg-black"
+    className="min-h-screen w-full flex flex-col py-8 px-8 sm:px-38 bg-black"
   >
     <p className="text-5xl text-black font-semibold pb-12 text-center">
       <Highlight>experience</Highlight>
