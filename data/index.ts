@@ -1,20 +1,3 @@
-import { StaticImageData } from "next/image";
-
-import jsLogo from "@/public/img/logos/js.svg";
-import tsLogo from "@/public/img/logos/ts.svg";
-import reactLogo from "@/public/img/logos/react.svg";
-import nextjsLogo from "@/public/img/logos/nextjs.svg";
-import nodejsLogo from "@/public/img/logos/nodejs.svg";
-import tailwindLogo from "@/public/img/logos/tailwindcss.svg";
-import mongodbLogo from "@/public/img/logos/mongodb.svg";
-import mysqlLogo from "@/public/img/logos/mysql.svg";
-import phpLogo from "@/public/img/logos/php.svg";
-import gitLogo from "@/public/img/logos/git.svg";
-import pythonLogo from "@/public/img/logos/python.svg";
-import javaLogo from "@/public/img/logos/java.svg";
-import cLogo from "@/public/img/logos/c.svg";
-import cppLogo from "@/public/img/logos/cpp.svg";
-
 // NAV BAR ITEMS
 export const navItems = [
   { name: "Home", link: "#home" },
