@@ -58,6 +58,23 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    title: "Delta Palette",
+    description:
+      "A colorblind-focused accessibility tool that generates clearer, more inclusive color palettes for transit maps by leveraging the perceptual uniformity of Oklab and distance-maximization",
+    imageSrc: "/img/projects/delta-palette.png",
+    tags: [
+      "Next.js",
+      "React",
+      "Typescript",
+      "Tailwind CSS",
+      "Oklab",
+      "color-blind simulation",
+      "Culori",
+    ],
+    website: "https://delta-palette.vercel.app/",
+    github: "https://github.com/xxfmin/delta-palette",
+  },
+  {
     title: "oddysey",
     description:
       "A full-stack, AI-enhanced travel itinerary builder that allows users to map out their trips, explore destinations, and track expenses",
@@ -84,23 +101,6 @@ export const projects: Project[] = [
     tags: ["Next.js", "React", "Typescript", "Tailwind CSS", "Framer Motion"],
     website: "/",
     github: "https://github.com/xxfmin/personal-portfolio",
-  },
-  {
-    title: "Color Your Commute",
-    description:
-      "A colorblind-focused accessibility tool that generates clearer, more inclusive color palettes for transit maps by leveraging the perceptual uniformity of Oklab and distance-maximization",
-    imageSrc: "/img/projects/coloryourcommute.png",
-    tags: [
-      "HTML",
-      "CSS",
-      "Javascript",
-      "Python",
-      "Oklab",
-      "numpy",
-      "colorspacious",
-    ],
-    website: "https://fsu-urop-2023.github.io/Coloring-Transit-Maps/",
-    github: "https://github.com/xxfmin/Coloring-Transit-Maps",
   },
 ];
 
