@@ -60,7 +60,7 @@ export const projects: Project[] = [
   {
     title: "Delta Palette",
     description:
-      "A colorblind-focused accessibility tool that generates clearer, more inclusive color palettes for transit maps by leveraging the perceptual uniformity of Oklab and distance-maximization",
+      "A colorblind-focused accessibility tool that generates clearer, more inclusive color palettes by leveraging the perceptual uniformity of Oklab and distance-maximization",
     imageSrc: "/img/projects/delta-palette.png",
     tags: [
       "Next.js",
