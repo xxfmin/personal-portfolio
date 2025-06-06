@@ -41,23 +41,6 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: "Delta Palette",
-    description:
-      "A colorblind-focused accessibility tool that generates clearer, more inclusive color palettes by leveraging the perceptual uniformity of Oklab and distance-maximization.",
-    imageSrc: "/img/projects/delta-palette.png",
-    tags: [
-      "Next.js",
-      "React",
-      "Typescript",
-      "Tailwind CSS",
-      "Oklab",
-      "color-blind simulation",
-      "Culori",
-    ],
-    website: "https://delta-palette.vercel.app/",
-    github: "https://github.com/xxfmin/delta-palette",
-  },
-  {
     title: "oddysey",
     description:
       "A full-stack, AI-enhanced travel itinerary builder that allows users to map out their trips, explore destinations, and track expenses.",
@@ -75,6 +58,23 @@ export const projects: Project[] = [
     ],
     website: "https://odyssey-seven-chi.vercel.app/",
     github: "https://github.com/xxfmin/odyssey",
+  },
+  {
+    title: "Delta Palette",
+    description:
+      "A colorblind-focused accessibility tool that generates clearer, more inclusive color palettes by leveraging the perceptual uniformity of Oklab and distance-maximization.",
+    imageSrc: "/img/projects/delta-palette.png",
+    tags: [
+      "Next.js",
+      "React",
+      "Typescript",
+      "Tailwind CSS",
+      "Oklab",
+      "color-blind simulation",
+      "Culori",
+    ],
+    website: "https://delta-palette.vercel.app/",
+    github: "https://github.com/xxfmin/delta-palette",
   },
   {
     title: "Personal Portfolio",
