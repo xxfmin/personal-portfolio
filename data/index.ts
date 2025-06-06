@@ -60,7 +60,7 @@ export const projects: Project[] = [
   {
     title: "Delta Palette",
     description:
-      "A colorblind-focused accessibility tool that generates clearer, more inclusive color palettes by leveraging the perceptual uniformity of Oklab and distance-maximization",
+      "A colorblind-focused accessibility tool that generates clearer, more inclusive color palettes by leveraging the perceptual uniformity of Oklab and distance-maximization.",
     imageSrc: "/img/projects/delta-palette.png",
     tags: [
       "Next.js",
@@ -77,7 +77,7 @@ export const projects: Project[] = [
   {
     title: "oddysey",
     description:
-      "A full-stack, AI-enhanced travel itinerary builder that allows users to map out their trips, explore destinations, and track expenses",
+      "A full-stack, AI-enhanced travel itinerary builder that allows users to map out their trips, explore destinations, and track expenses.",
     imageSrc: "/img/projects/odyssey.png",
     tags: [
       "Next.js",
@@ -96,7 +96,7 @@ export const projects: Project[] = [
   {
     title: "Personal Portfolio",
     description:
-      "This portfolio serves as a showcase of my most impactful projects, professional experiences, and personal interests",
+      "This portfolio serves as a showcase of my most impactful projects, professional experiences, and personal interests.",
     imageSrc: "/img/projects/personal-portfolio.png",
     tags: ["Next.js", "React", "Typescript", "Tailwind CSS", "Framer Motion"],
     website: "/",
