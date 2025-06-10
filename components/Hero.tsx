@@ -37,7 +37,13 @@ const Hero = () => {
             <ShinyButton icon={<ChevronRight />}>
               <Link href="#work">See My Work</Link>
             </ShinyButton>
-            <a href="" className="flex items-center gap-2.5 group">
+            <a
+              href="/resume/SWE-Resume.pdf"
+              download="Felipe-Min-Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2.5 group"
+            >
               <Download className="text-blue-500 w-6 h-6" />
               <span className="text-white/90 group-hover:text-white/70 transition-colors duration-200 font-semibold">
                 Download CV
